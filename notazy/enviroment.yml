@@ -1,0 +1,20 @@
+name: notazy
+channels:
+  - conda-forge
+dependencies:
+  - python=3.13.5
+  - pip
+  - pyqt  # PySide6 não está 100% no conda, PyQt é alternativa Qt, se quiser PySide6, instale via pip
+  - lxml
+  - cryptography
+  - keyring
+  - pytest
+  - flake8
+  - black
+  - pip
+  - pip:
+      - PySide6
+      - zeep
+      - xmltodict
+      - reportlab
+      - python-dotenv
